@@ -20,7 +20,7 @@ META = Makefile README.rst check.py
 
 DOCKERIMG = vusec/vu-os-alloc-check
 
-CFLAGS = -Wall -Wextra -std=gnu99 -MD -g3 -O1
+CFLAGS = -g #-Wall -Wextra -std=gnu99 -MD -g3 -O1
 CFLAGS_LIB = -fPIC
 CFLAGS_TEST = -DALLOC_TEST_FRAMEWORK
 LDFLAGS =
